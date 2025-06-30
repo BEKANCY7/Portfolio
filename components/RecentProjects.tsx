@@ -1,3 +1,4 @@
+"use client";
 import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
@@ -47,7 +48,10 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                <div
+                  className="flex justify-center items-center"
+                  onClick={() => window.open(link, "_blank")}
+                >
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check live site
                   </p>
