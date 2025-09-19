@@ -76,7 +76,7 @@ export const projects = [
     des: "Digitized government workflow using SharePoint, React (SPFX), jQuery and Redux for global state.",
     img: "/smo.png",
     iconLists: ["/sharepoint.svg", "/re.svg", "/redux.svg", "/jquery.svg"],
-    link: "",
+    link: "https://smartoffice.aaca.gov.et/",
   },
 
   {
