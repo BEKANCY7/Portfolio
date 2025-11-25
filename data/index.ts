@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I focus on building strong client partnerships and encouraging transparent communication",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -74,41 +74,28 @@ export const projects = [
     id: 2,
     title: "Smart Office – SharePoint Workflow System",
     des: "Digitized government workflow using SharePoint, React (SPFX), jQuery and Redux for global state.",
-    img: "/smo.png",
+    img: "/screenshot 2025-05-07 170456.png",
     iconLists: ["/sharepoint.svg", "/re.svg", "/redux.svg", "/jquery.svg"],
     link: "https://smartoffice.aaca.gov.et/",
   },
 
   {
     id: 5,
-    title: "Visit Oromia – Art Gallery Photo Stock",
-    des: "Oromo cultural gallery with upload features, dynamic routing, and image grid view powered by Express.",
-    img: "/visitoromia.png",
+    title: "work relation manager",
+    des: "Work Relationship Manager is a web app built with React, Redux Toolkit, and Tailwind CSS to improve team collaboration and task transparency. It features role-based dashboards, task tracking, status updates, and performance insights. I focused on creating a responsive UI, reusable components, and smooth integration with REST APIs. The app supports managers and team members with clear, organized workflows and an intuitive interface that enhances communication and productivity..",
+    img: "/screenshot 2025-09-09 150336.png",
     iconLists: ["/re.svg", "/redux.svg", "/node.svg", "/mongodb.svg"],
     link: "https://gallery.visitoromia.org/",
   },
   {
     id: 6,
-    title: "Prosperity for Ethiopia – NGO Website",
-    des: "Static charity website with project listings and media section, built using PHP and MySQL.",
-    img: "/pfo.png",
+    title: "RentHub",
+    des: "RentHub is a dynamic platform for renting houses and cars, designed to make property and vehicle rentals seamless and accessible",
+    img: "/image.png",
     iconLists: ["/html.svg", "/css.svg", "/php.svg", "/mysql.svg"],
     link: "https://pfethiopia.com/",
   },
-  {
-    id: 7,
-    title: "MERN Reward Platform – Share Purchase",
-    des: "Full-stack MERN platform allowing users to complete tasks and earn points redeemable for shares.",
-    img: "/keyug.png",
-    iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/node.svg",
-      "/express.svg",
-      "/mongodb.svg",
-    ],
-    link: "https://etambsc.com",
-  },
+ 
 ];
 
 export const testimonials = [
