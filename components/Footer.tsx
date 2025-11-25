@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-small md:font-normal font-light">
-          Copyright © 2024 Nati
+          Copyright © 2025 Beki
         </p>
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (

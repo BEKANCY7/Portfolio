@@ -46,19 +46,8 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
     title: "Do you want to start a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
@@ -85,7 +74,6 @@ export const projects = [
     des: "Work Relationship Manager is a web app built with React, Redux Toolkit, and Tailwind CSS to improve team collaboration and task transparency. It features role-based dashboards, task tracking, status updates, and performance insights. I focused on creating a responsive UI, reusable components, and smooth integration with REST APIs. The app supports managers and team members with clear, organized workflows and an intuitive interface that enhances communication and productivity..",
     img: "/screenshot 2025-09-09 150336.png",
     iconLists: ["/re.svg", "/redux.svg", "/node.svg", "/mongodb.svg"],
-    link: "https://gallery.visitoromia.org/",
   },
   {
     id: 6,
@@ -93,7 +81,6 @@ export const projects = [
     des: "RentHub is a dynamic platform for renting houses and cars, designed to make property and vehicle rentals seamless and accessible",
     img: "/image.png",
     iconLists: ["/html.svg", "/css.svg", "/php.svg", "/mysql.svg"],
-    link: "https://pfethiopia.com/",
   },
  
 ];
@@ -167,59 +154,31 @@ export const companies = [
 export const experiences = [
   {
     id: 1,
-    title: "Co-founder & Website Developer – Geez Gebeya",
-    desc: "Built an e-commerce platform connecting sellers and buyers using HTML, CSS, Bootstrap, and PHP.",
+    title: "Co-founder & Website Developer – Renthub",
+    desc: "Built a full-stack rental marketplace for houses, cars, and apartments using Next.js frontend and Django REST API backend.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Full Stack Developer – Reward Platform",
-    desc: "Created a MERN-based platform where users register, complete tasks, and earn shareable points.",
+    title: "Frontend Developer – Work Relationship Manager",
+    desc: "Developed a stakeholder collaboration platform using React frontend and Django REST backend, facilitating coordination between contractors, advisers, and government bureaus.",
     className: "md:col-span-1",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Angular Developer – AI Pursuit Project",
-    desc: "Worked on a complex pursuit manager using Angular and .NET integrated with Azure AI services.",
+    title: "Frontend Developer – Smart Office System ",
+    desc: "Developed a comprehensive record management platform for government offices using React frontend and Node.js backend, digitizing document handling and archival processes.",
     className: "md:col-span-1",
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "SharePoint Developer – Smart Office Project",
-    desc: "Built government workflow tools using SharePoint, React (SPFX), jQuery, and Redux.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-  {
     id: 5,
-    title: "Co-founder & Website Developer – Prosperity for Ethiopia",
-    desc: "Developed a static informational website for a charity org using PHP, MySQL, HTML, and Bootstrap.",
+    title: "Co-founder & Website Developer – MovieDux",
+    desc: "Developed a movie discovery and streaming platform using React, featuring advanced search, user ratings, and personalized recommendations.",
     className: "md:col-span-1",
     thumbnail: "/p1.svg",
-  },
-  {
-    id: 6,
-    title: "Website Developer – Mahbere Kidusan",
-    desc: "Created a church event notification platform using React.js, MUI, Node.js, and MongoDB.",
-    className: "md:col-span-1",
-    thumbnail: "/p2.svg",
-  },
-  {
-    id: 7,
-    title: "Website Developer – Truth Seekers",
-    desc: "Built a religious social media platform using React, Redux, Node.js, and Express.",
-    className: "md:col-span-1",
-    thumbnail: "/p3.svg",
-  },
-  {
-    id: 8,
-    title: "Website Developer – Visit Oromia",
-    desc: "Designed an art gallery photo stock site using React, Redux, and Express.",
-    className: "md:col-span-1",
-    thumbnail: "/p4.svg",
   },
 ];
 
@@ -227,11 +186,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/Nati-14575",
+    link: "https://github.com/BEKANCY7",
   },
   {
     id: 2,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/nati-nigussie-227465222/",
+    link: "https://www.linkedin.com/in/bereket-tegene-9a3008251/",
   },
 ];
